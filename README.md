@@ -1,3 +1,3 @@
-# MetadataMagic
+# PythonPrintTools
 
-Utility for managing metadata.
+Basic utility for printing info to console.

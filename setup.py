@@ -9,10 +9,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Python-Print-Tools",
-    version="0.1.0",
+    version="0.1.1",
     author="Drakovek",
     author_email="DrakovekMail@gmail.com",
-    description="Utility for printing to console",
+    description="Basic utility for printing info to console.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Drakovek/Python-Print-Tools",
