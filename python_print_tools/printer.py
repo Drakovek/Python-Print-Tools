@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from os.path import abspath
+import os.path
 from typing import List
 
 def get_color_code(color:str) -> str:
@@ -77,8 +77,8 @@ def truncate_path(base_dir:str, file:str) -> str:
     :rtype: str
     """
     # Return file unaltered if not inside the base directory
-    full_base = abspath(base_dir)
-    full_file = abspath(file)
+    full_base = os.path.abspath(base_dir)
+    full_file = os.path.abspath(file)
     if full_base == full_file or not full_file.startswith(full_base):
         return full_file
     # Truncate the path of the given file

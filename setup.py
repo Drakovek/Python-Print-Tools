@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Python-Print-Tools",
-    version="0.1.1",
+    version="0.2.0",
     author="Drakovek",
     author_email="DrakovekMail@gmail.com",
     description="Basic utility for printing info to console.",
