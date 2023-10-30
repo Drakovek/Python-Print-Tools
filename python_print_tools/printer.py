@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import os.path
 from typing import List
 
@@ -96,3 +97,12 @@ def print_files(base_dir:str, files:List[str]):
     """
     for file in files:
         print(truncate_path(base_dir, file))
+
+def clear_console():
+    """
+    Clears the terminal/console/CLI.
+    """
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")
